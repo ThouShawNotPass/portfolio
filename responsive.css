@@ -1,0 +1,186 @@
+/* Responsive code for non-mobile viewing devices
+    the regular code is for mobile devices and loads 
+    faster. This code is targeted at larger devices 
+    and can be ignored by small screens (mobile) */
+
+/* Target iPhone 5/SE */
+@media screen and (max-width: 320px) and (orientation: portrait) 
+{
+    .myHeroText h1
+    {
+        font-size: 36pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 9.5pt;
+    }
+}
+
+/* Landscape Mobile Devices */
+@media screen and (max-width: 715px) and (orientation: Landscape) 
+{
+    .myHeroText h1
+    {
+        font-size: 33pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 8pt;
+    }
+}
+
+/* Scale up from mobile to larger devices */
+@media screen and (min-width: 768px) 
+{
+    /* Change Hamburger -> Nav Bar */
+    .activeItem
+    {
+        border-bottom: 2px solid white;
+        padding-bottom: 3px !important;
+    }
+
+    .roundItem
+    {
+        border: 2px solid white;
+        border-radius: 15px;
+        padding: 3px 13px !important;
+    }
+
+    /* Scale Up Images from @1x -> @2x */
+    .sectionDivider
+    {
+        content: url(img/sectionDivider@2x.png);
+        margin: 0 calc((100vw - 200px) / 2);
+    }
+
+    .myProjectImg
+    {
+        content: url(img/My_Projects@2x.png);
+        margin: 40px calc((100vw - 707px) / 2);
+    }
+}
+
+/* Landscape -> unstack grid */
+@media screen and (orientation: Landscape)
+{
+    .myRow
+    {
+        align-items: center;
+        display: flex;
+    }
+
+    .myColLg6
+    {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 50vw;
+    }
+
+    .myHeroText
+    {
+        text-align: right;
+        width: 100%;
+    }
+}
+
+/* Landscape iPad */
+@media screen and (orientation: Landscape) and (min-width: 1024px) and (max-width: 1365px)
+{
+    .myHeroText h1
+    {
+        font-size: 60pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 14pt;
+    }
+}
+
+/* Portrait iPad */
+@media screen and (orientation: portrait) and (min-width: 768px)
+{
+    .myHeroText h1
+    {
+        font-size: 72pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 16pt;
+    }
+}
+
+/* Landscape iPad Pro */
+@media screen and (orientation: Landscape) and (min-width: 1366px) and (max-width: 1439px)
+{
+    .myHeroText h1
+    {
+        font-size: 81pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 18pt;
+    }
+}
+
+/* Portrait iPad Pro */
+@media screen and (orientation: portrait) and (min-width: 790px)
+{
+    .myHeroText h1
+    {
+        font-size: 81pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 18pt;
+    }
+
+    .myHeroImg
+    {
+        margin: auto;
+    }
+}
+
+/* MacBook Air */
+@media screen and (orientation: Landscape) and (min-width: 1440px) and (max-width: 1919px)
+{
+    .myHeroText h1
+    {
+        font-size: 90pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 20pt;
+    }
+    
+    .myHeroImg
+    {
+        width: 100%;
+    }
+}
+
+/* Landscape Desktop Widescreen */
+@media screen and (orientation: Landscape) and (min-width: 1920px)
+{
+    .myHeroText h1
+    {
+        font-size: 112pt;
+    }
+
+    .myHeroText h2
+    {
+        font-size: 22pt;
+    }
+    
+    .myHeroImg
+    {
+        width: 100%;
+    }
+}

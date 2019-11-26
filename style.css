@@ -1,0 +1,132 @@
+/* 
+
+* * * * * WHOLE PAGE * * * * *
+
+*/
+
+body
+{
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar 
+{
+    width: 0px; /* Hide Scroll Bar */
+}
+
+/* 
+
+* * * * * NAV BAR * * * * *
+
+*/
+.myContainer
+{
+    padding: 0;
+}
+
+.myNavBar
+{
+    background-color: #000000;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.myBrand
+{
+    padding: 10px 10px 10px 10px;
+}
+
+.myNavImg
+{
+    width: auto;
+    height: 100%;
+}
+
+.myNavItem 
+{
+    color: white !important; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding: 5px !important;
+    margin: 10px !important;
+}
+
+.activeItem
+{
+    border-bottom: none;
+    padding-bottom: 5px !important;
+}
+
+.roundItem
+{
+    border: none;
+    border-radius: 0;
+    padding: 5px 5px !important;
+}
+
+/* 
+
+* * * * * HERO SECTION * * * * *
+
+*/
+.myRow
+{
+    background-color: black;
+    display: block;
+    height: calc(100vh - 50px);
+    width: 100vw;
+}
+
+.marginZero
+{
+    margin: 0;
+}
+
+.myColLg6
+{
+    padding: 20px;
+    height: auto;
+}
+
+.myHeroText
+{
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myHeroText h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 42pt;
+    font-weight: 400;
+}
+
+.myHeroText h2
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+}
+
+.myHeroImg
+{
+    max-height: calc(100vh - 50px);
+}
+
+/* 
+
+* * * * * My Projects * * * * *
+
+*/
+
+.sectionDivider
+{
+    margin: 0 calc((100vw - 100px) / 2);
+}
+
+.myProjectImg
+{
+    margin: 20px calc((100vw - 354px) / 2);
+}
