@@ -73,6 +73,55 @@
         border-radius: 21px;
         font-size: 16pt;
     }
+
+    /* Scale up project grid */
+    .myProjectContainer
+    {
+        margin: 0 20px;
+    }
+
+    .myProject
+    {
+        margin: 20px 20px;
+        max-width: calc((100vw - 120px) / 2);
+    }
+}
+
+/* Scale up project grid from small to medium devices */
+@media screen and (min-width: 992px) 
+{
+    /* Scale up project grid */
+    .myProjectContainer
+    {
+        margin: 0 20px;
+    }
+
+    .myProject
+    {
+        margin: 20px 20px;
+        max-width: calc((100vw - 160px) / 3);
+    }
+
+    .myProjectText
+    {
+        font-size: 16pt;
+    }
+}
+
+/* Scale up project grid from medium to large devices */
+@media screen and (min-width: 1200px) 
+{
+    /* Scale up project grid */
+    .myProjectContainer
+    {
+        margin: 0 20px;
+    }
+
+    .myProject
+    {
+        margin: 20px 20px;
+        max-width: calc((100vw - 200px) / 4);
+    }
 }
 
 /* Landscape -> unstack grid */

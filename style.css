@@ -148,14 +148,46 @@ body
     outline: none !important;
 }
 
-/* .myBtn:hover
-{
-    background-color: #000000;
-    color: #ffffff;
-} */
-
 .myActive
 {
     background-color: #000000;
     color: #ffffff !important;
+}
+
+.myProjectContainer
+{
+    margin: 0 40px;
+}
+
+.myProject
+{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    overflow: hidden;
+    margin: 20px 0;
+    padding: 0;
+    max-width: calc(100vw - 80px);
+}
+
+.myProject img
+{
+    max-width: 100%;
+}
+
+.myDateText
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    padding: 5px 10px 0 10px;
+}
+
+.myProjectText
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+    font-weight: 300;
+    padding: 0 10px 20px 10px;
 }

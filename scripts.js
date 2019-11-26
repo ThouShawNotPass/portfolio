@@ -8,7 +8,7 @@ filterSelection("all") // do this every time
 // Filters the selection of different project categories
 function filterSelection(query) 
 {
-    var x = document.getElementsByClassName("column");
+    var x = document.getElementsByClassName("myProject");
     
     if (query == "all")
     {
