@@ -130,3 +130,32 @@ body
 {
     margin: 20px calc((100vw - 354px) / 2);
 }
+
+#myBtnContainer
+{
+    margin: 0 calc((100vw - 198px) / 2);
+    margin-bottom: 30px;
+}
+
+.myBtn
+{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    outline: none !important;
+}
+
+/* .myBtn:hover
+{
+    background-color: #000000;
+    color: #ffffff;
+} */
+
+.myActive
+{
+    background-color: #000000;
+    color: #ffffff !important;
+}

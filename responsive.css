@@ -60,6 +60,19 @@
         content: url(img/My_Projects@2x.png);
         margin: 40px calc((100vw - 707px) / 2);
     }
+
+    /* Scale up text and recenter buttons */
+    #myBtnContainer
+    {
+        margin: 0 calc((100vw - 257px) / 2);
+        margin-bottom: 40px;
+    }
+
+    .myBtn
+    {
+        border-radius: 21px;
+        font-size: 16pt;
+    }
 }
 
 /* Landscape -> unstack grid */
