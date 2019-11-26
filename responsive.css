@@ -64,13 +64,13 @@
     /* Scale up text and recenter buttons */
     #myBtnContainer
     {
-        margin: 0 calc((100vw - 257px) / 2);
+        margin: 0 calc((100vw - 280px) / 2);
         margin-bottom: 40px;
     }
 
     .myBtn
     {
-        border-radius: 21px;
+        border-radius: 17px;
         font-size: 16pt;
     }
 
