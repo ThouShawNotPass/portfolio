@@ -15,6 +15,11 @@
     {
         font-size: 9.5pt;
     }
+
+    .myProjectImg
+    {
+        margin: 20px calc((100vw - 300px) / 2);
+    }
 }
 
 /* Landscape Mobile Devices */

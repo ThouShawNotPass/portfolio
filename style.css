@@ -129,6 +129,7 @@ body
 .myProjectImg
 {
     margin: 20px calc((100vw - 354px) / 2);
+    max-width: calc(100vw - 20px);
 }
 
 #myBtnContainer
