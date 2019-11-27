@@ -90,6 +90,44 @@
         margin: 20px 20px;
         max-width: calc((100vw - 120px) / 2);
     }
+
+    /* Flip About me Images */
+    #aboutMe
+    {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .aboutMeSmall
+    {
+        display: none;
+        margin: 50px auto 10px auto;
+    }
+
+    .aboutMeBig
+    {
+        display: block;
+        margin: 5px auto 10px auto;
+        max-width: 90%;
+    }
+
+    .aboutMeText
+    {
+        font-size: 14pt;
+    }
+
+    .aboutBtnContainer
+    {
+        margin: 60px calc((100% - 374px) / 2);
+    }
+
+    .myAboutBtn
+    {
+        font-size: 16pt;
+        border-radius: 24px;
+        padding: 10px 20px;
+        margin: 0 10px;
+    }
 }
 
 /* Scale up project grid from small to medium devices */
@@ -249,5 +287,15 @@
     .myHeroImg
     {
         width: 100%;
+    }
+
+    #aboutMe
+    {
+        max-width: 1300px;
+    }
+
+    .aboutMeText
+    {
+        font-size: 18pt;
     }
 }
