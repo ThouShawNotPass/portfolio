@@ -4,6 +4,11 @@
 
 */
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -266,4 +271,15 @@ body
 {
     margin: 20px calc((100vw - 228px) / 2);
     max-width: calc(100vw - 20px);
+}
+
+/* 
+
+* * * * * Footer * * * * *
+
+*/
+
+.myFooter
+{
+    margin-top: 20px;
 }

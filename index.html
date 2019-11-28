@@ -32,7 +32,7 @@ realjustinshaw@gmail.com
 <body>
 
 <!-- Navigation Bar -->
-<div class="container-fluid myContainer">
+<div id="home" class="container-fluid myContainer">
     <nav class="navbar navbar-inverse myNavBar">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -41,7 +41,7 @@ realjustinshaw@gmail.com
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand myBrand" href="#">
+                <a class="navbar-brand myBrand" href="#home">
                     <img class="myNavImg" src="img/JustinShawSignatureScripty.png" alt="Justin Shaw">
                 </a>
             </div>
@@ -231,51 +231,27 @@ realjustinshaw@gmail.com
     </div>
 </div>
 
-<!-- Footer Section -->
-<footer class="page-footer font-small special-color-dark pt-4">
-    <div class="container-fluid">
-        <ul class="list-unstyled list-inline text-center">
-            
-            <!-- Facebook -->
-            <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1">
-                <i class="fab fa-facebook-f"> </i>
-            </a>
-            </li>
-
-            <!-- Twitter -->
-            <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
-                <i class="fab fa-twitter"> </i>
-            </a>
-            </li>
-
-            <!-- Git Hub -->
-            <li class="list-inline-item">
-            <a class="btn-floating btn-git mx-1">
-                <i class="fab fa-github"> </i>
-            </a>
-            </li>
-
-            <!-- Linked In -->
-            <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1">
-                <i class="fab fa-linkedin-in"> </i>
-            </a>
-            </li>
-
-            <!-- Dribble -->
-            <li class="list-inline-item">
-            <a class="btn-floating btn-ins mx-1">
-                <i class="fab fa-instagram"> </i>
-            </a>
-            </li>
-        </ul>  
-    </div>
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright: Justin Shaw</div>
-</footer>
+<!-- Footer -->
+<div class="container-fluid myContainer myFooter">
+    <nav class="navbar navbar-inverse myNavBar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand myBrand" href="#home">
+                    <img class="myNavImg" src="img/JustinShawSignatureScripty.png" alt="Justin Shaw">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse myNavBarCollapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="myNavItem" href="#projects">Work</a></li>
+                    <li><a class="myNavItem" href="#aboutMe">About Me</a></li>
+                    <li><a class="myNavItem activeItem" href="#blog">Blog</a></li>
+                    <li><a class="myNavItem" href="#contact">Contact</a></li>
+                    <li><a class="myNavItem roundItem" href="#home">Back to top</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
 
 <script src="scripts.js"></script>
 </body>
