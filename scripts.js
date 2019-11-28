@@ -5,6 +5,42 @@
 
 filterSelection("all") // do this every time 
 
+// Toggles the number of visible project cards
+function viewMoreWork() 
+{
+  var moreProjects = document.getElementById("moreWork");
+  var projectBtn = document.getElementById("myMoreWorkBtn");
+
+  if (moreProjects.style.display === "inline") 
+  {
+    projectBtn.innerHTML = "View more";
+    moreProjects.style.display = "none";
+  } 
+  else 
+  {
+    projectBtn.innerHTML = "View less";
+    moreProjects.style.display = "inline";
+  }
+}
+
+// Toggles the number of visible blog cards
+function viewMoreBlog() 
+{
+  var moreBlogs = document.getElementById("moreBlogs");
+  var blogBtn = document.getElementById("myMoreBlogBtn");
+
+  if (moreBlogs.style.display === "inline") 
+  {
+    blogBtn.innerHTML = "View more";
+    moreBlogs.style.display = "none";
+  } 
+  else 
+  {
+    blogBtn.innerHTML = "View less";
+    moreBlogs.style.display = "inline";
+  }
+}
+
 // Filters the selection of different project categories
 function filterSelection(query) 
 {
