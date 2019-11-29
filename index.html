@@ -15,6 +15,9 @@ _ _ _ _           _ _   _ _ _ _ _  _ _ _ _ _
 Have a look around! Please don't hesitate to email me at
 realjustinshaw@gmail.com
 
+TODO:
+- convert all images to square
+
  -->
 
 <!DOCTYPE html>
@@ -98,73 +101,73 @@ realjustinshaw@gmail.com
     <!-- Row 4: Project Cards -->
     <div class="row myProjectContainer">
         <!-- Geodesic Greenhouse Dome -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#Geodesic_Greenhouse">
             <img src="img/projects/Aut18_Geodesic_Greenhouse/main_dome.png" alt="Project Image">
             <div class="myDateText text-right">2018</div>
             <div class="myProjectText text-center">Geodesic Greenhouse</div>
         </div>
 
         <!-- Prep Timer -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject digital" onclick="">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject digital" data-toggle="modal" data-target="#Prep_Timer">
             <img src="img/projects/Spr18_Prep_Timer/main_preptimer.png" alt="Project Image">
             <div class="myDateText text-right">2018</div>
             <div class="myProjectText text-center">Prep Timer</div>
         </div>
 
         <!-- Hydroponics Research -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#Hydroponic_Research">
             <img src="img/projects/Sum18_Hydroponics_Research/main_research.png" alt="Project Image">
             <div class="myDateText text-right">2018</div>
             <div class="myProjectText text-center">Hydroponic Research</div>
         </div>
 
+        <!-- Photobiology -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#Growing_Colors">
+            <img src="img/projects/Spr17_Photobiology/main_photobiology.png" alt="Project Image">
+            <div class="myDateText text-right">2017</div>
+            <div class="myProjectText text-center">Growing Colors</div>
+        </div>
+
         <!-- Hide all of this initially -->
         <span id="moreWork">
 
-            <!-- Photobiology -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
-                <img src="img/projects/Spr17_Photobiology/main_photobiology.png" alt="Project Image">
-                <div class="myDateText text-right">2017</div>
-                <div class="myProjectText text-center">Growing Colors</div>
-            </div>
-
             <!-- Aquaponics -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#LED_Aquaponics">
                 <img src="img/projects/Spr17_Organic_Aquaponics/main_aquaponics.jpg" alt="Project Image">
                 <div class="myDateText text-right">2017</div>
                 <div class="myProjectText text-center">LED Aquaponics</div>
             </div>
 
             <!-- Electric Cello -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#Printable_Electric_Cello">
                 <img src="img/projects/Win17_Printable_Cello/main_cello.jpg" alt="Project Image">
                 <div class="myDateText text-right">2017</div>
                 <div class="myProjectText text-center">Printable Electric Cello</div>
             </div>
 
             <!-- Slippery Slope -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#Slippery_Slope">
                 <img src="img/projects/Win17_Slippery_Slope/main_calculus.png" alt="Project Image">
                 <div class="myDateText text-right">2017</div>
                 <div class="myProjectText text-center">Slippery Slope</div>
             </div>
 
             <!-- Raspberry Pi Gameboy -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject digital" onclick="">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject digital" data-toggle="modal" data-target="#RaspPi_Gameboy">
                 <img src="img/projects/Win16_RPi_Gameboy/main_gameboy.jpg" alt="Project Image">
                 <div class="myDateText text-right">2016</div>
                 <div class="myProjectText text-center">RaspPi Gameboy</div>
             </div>
 
             <!-- Hackintosh PC -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#Hackintosh_PC">
                 <img src="img/projects/Sum15_Hackintosh/main_hackintosh.jpg" alt="Project Image">
                 <div class="myDateText text-right">2015</div>
                 <div class="myProjectText text-center">Hackintosh PC</div>
             </div>
 
             <!-- Electronic Circuits -->
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" onclick="">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject physical" data-toggle="modal" data-target="#Electronic_Circuits">
                 <img src="img/projects/Sum14_Electronic_Circuit_Game/main_circuit.jpg" alt="Project Image">
                 <div class="myDateText text-right">2014</div>
                 <div class="myProjectText text-center">Electronic Circuits</div>
@@ -274,6 +277,678 @@ realjustinshaw@gmail.com
             </div>
         </div>
     </nav>
+</div>
+
+<!-- * -->
+<!-- * -->
+<!-- * -->
+<!-- Modal Windows -->
+<!-- * -->
+<!-- * -->
+<!-- * -->
+
+<!-- Dome -->
+<div id="Geodesic_Greenhouse" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Geodesic Greenhouse</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/dome_0.jpg">
+                                    </div>
+                            
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_0882.jpg" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_0883.jpg" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_0885.jpg" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_0894.png" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_0903.jpg" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_1143.jpg" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_1144.jpg" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_1171.jpg" style="width:100%;">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Aut18_Geodesic_Greenhouse/IMG_1172.jpg" style="width:100%;">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Problem: </strong>
+                                I needed a space to grow plants for hydroponic research through the winter
+                            </div>
+                            <div class="myModalText">
+                                <strong>Solution: </strong>
+                                I designed and built a geodesic greenhouse dome with my team of researchers
+                            </div>
+                            <div class="myModalText">
+                                As an extension to my prior research on hydroponic plant growth, I needed a 
+                                new location to house a larger scale research project. As the son of two 
+                                architects, the only thing that would fly in our backyard would be something of 
+                                architectural significance. So I built a dome.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Prep Timer -->
+<div id="Prep_Timer" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Prep Timer</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Spr18_Prep_Timer/app_0.png">
+                                    </div>
+                            
+                                    <div class="item">
+                                        <img src="img/projects/Spr18_Prep_Timer/AppIconV3.png">
+                                    </div>
+                                
+                                    <div class="item">
+                                        <img src="img/projects/Spr18_Prep_Timer/PrepTimerOne.PNG.png">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="img/projects/Spr18_Prep_Timer/PrepTimerTwo.jpg">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Problem: </strong>
+                                Needed a way to keep track of my speech length for speech & debate
+                            </div>
+                            <div class="myModalText">
+                                <strong>Solution: </strong>
+                                Create a mobile app to track speech length, organize team logistics, and record speeches.
+                            </div>
+                            <div class="myModalText">
+                                I taught myself the programming language Swift so that I could create a mobile
+                                app to help time speeches. I made two versions, a free version with ads and a $0.99 
+                                "pro" version without ads to help balance the cost of Apple's developer liscense. The
+                                app was a hit and I soon reached over 1,000,000 page views and thousands of downloads.
+                                The net profit I make from the ad revenue gets donated back to the Urban Debate League,
+                                a non-profit devoted to introducing low-income, urban students to the world of speech 
+                                and debate.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hydroponic Research -->
+<div id="Hydroponic_Research" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Hydroponic Research</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Sum18_Hydroponics_Research/main_research.png">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Question: </strong>
+                                Does color temperature of LED's affect hydroponic plant growth
+                            </div>
+                            <div class="myModalText">
+                                <strong>Answer: </strong>
+                                Probably. My research showed that hydroponic lettuce showed a
+                                strong preference for a higher color temperature environment
+                            </div>
+                            <div class="myModalText">
+                                As a junior in high school, I had the opportunity to pilot a new
+                                english research class. From topic selection to passing the review 
+                                board to writing the actual research paper, I learned a lot about 
+                                how to engage with scholarly work and contribute to the cutting edge
+                                of scientific research.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Growing Colors -->
+<div id="Growing_Colors" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Growing Colors</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Spr17_Photobiology/File_000.png">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Spr17_Photobiology/File_001.png">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Spr17_Photobiology/File_002.png">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Spr17_Photobiology/File_003.png">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Spr17_Photobiology/File_004.png">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Spr17_Photobiology/File_005.png">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Spr17_Photobiology/photobiology_0.jpg">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Question: </strong>
+                                I wanted to see which color of LED lights plants perferred
+                            </div>
+                            <div class="myModalText">
+                                <strong>Answer: </strong>
+                                White.
+                            </div>
+                            <div class="myModalText">
+                                In an attempt to determine what the difference between white light
+                                and red/blue light combinations was, I designed and manufactured a 
+                                few small light tents which would shine a certain color of light onto
+                                seeds I was growing. I figured the red/blue would be best because thats
+                                what many commercial growers and academic researchers use, but for me at 
+                                least, that turned out not to be the case.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- LED Aquaponics -->
+<div id="LED_Aquaponics" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">LED Aquaponics</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Spr17_Organic_Aquaponics/main_aquaponics.jpg">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Question: </strong>
+                                Can I create a self-sustaining micro-ecosystem with plants and fish
+                            </div>
+                            <div class="myModalText">
+                                <strong>Answer: </strong>
+                                No.
+                            </div>
+                            <div class="myModalText">
+                                I took an old fish tank we had in out garage and I created a small
+                                aquaponic environment with LED lights, lettuce seedlings, and goldfish.
+                                I used a pump to filter the water past the plant's roots and then back
+                                into the tank. The pump got clogged and the taproot eventually clogged the
+                                drainage hole overnight, flooding our kitchen. Mom wasn't happy.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cello -->
+<div id="Printable_Electric_Cello" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Printable Electric Cello</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Win17_Printable_Cello/IMG_0047.jpg">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Problem: </strong>
+                                How do you practice an acoustical instrument without annoying your family
+                            </div>
+                            <div class="myModalText">
+                                <strong>Solution: </strong>
+                                Remove the acoustical element and print it on your 3D printer.
+                            </div>
+                            <div class="myModalText">
+                                For my girlfriend's birthday, I printed her a remixed version of Connor O'Kane's
+                                electric cello. I wanted her to be able to practice her instrument in her house
+                                without her five siblings getting irritated about her loud instrument. I learned
+                                a lot about acoustics and the importance of accounting for tolerance in engineering
+                                schematic designs.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Slippery Slope -->
+<div id="Slippery_Slope" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Slippery Slope</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Win17_Slippery_Slope/main_calculus.png">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Problem: </strong>
+                                I didn't want to do a boring calculus project
+                            </div>
+                            <div class="myModalText">
+                                <strong>Solution: </strong>
+                                Teach yourself multivariable calculus and compute the volume of snow
+                                on a ski slope.
+                            </div>
+                            <div class="myModalText">
+                                As a junior in high school, I was tasked with making a 3D visualization
+                                of an integral for my AP Calculus BC class. I got some of my friends together
+                                and we proceeded to calculate the volume of a ski slope as defined by 3D surfaces.
+                                I learned a lot about higher-dimensional mathematics and the analogies between 
+                                lower and higher dimensional mathematical operations.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- RaspPi Gameboy -->
+<div id="RaspPi_Gameboy" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">RaspPi Gameboy</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Win16_RPi_Gameboy/main_gameboy.jpg">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Problem: </strong>
+                                I wanted to make something "cool" with my Raspberry Pi
+                            </div>
+                            <div class="myModalText">
+                                <strong>Solution: </strong>
+                                I built a raspberry-pi powered retro gameboy
+                            </div>
+                            <div class="myModalText">
+                                Build to the specifications of the Adafruit PiBoy, I worked
+                                with a raspbery pi and many other electronic componets to 
+                                build a device that would play retro arcade games on a portable
+                                gameboy-like device.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Hackintosh PC -->
+<div id="Hackintosh_PC" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Hackintosh PC</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Sum15_Hackintosh/hackintosh.png">
+                                    </div>
+                            
+                                    <div class="item">
+                                        <img src="img/projects/Sum15_Hackintosh/hackintoshV2.jpg" style="width:100%;">
+                                    </div>
+                                
+                                    <div class="item">
+                                        <img src="img/projects/Sum15_Hackintosh/main_hackintosh.jpg" style="width:100%;">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Problem: </strong>
+                                I wanted a mackintosh computer and we couldn't afford a Mac
+                            </div>
+                            <div class="myModalText">
+                                <strong>Solution: </strong>
+                                I built myself a PC that was specially designed to run Mac OS
+                            </div>
+                            <div class="myModalText">
+                                Probably one of the hardest things I have ever done, when I was 15
+                                I build myself a PC on the smallest of birthday-money budgets with
+                                the intent on running a "hacked" version of Mac OS so that I could 
+                                teach myself how to code and follow a tutorial that used a Mac. Looking
+                                back, a windows machine would have done the job. But the hard way is usually
+                                a better teacher.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Electronic Circuits -->
+<div id="Electronic_Circuits" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Electronic Circuits</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid myContainer">
+                    <div class="row marginZero">
+                        <div class="col-lg-8">
+                            <!-- Image Carousel -->
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Images -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="img/projects/Sum14_Electronic_Circuit_Game/File_001.jpg">
+                                    </div>
+                            
+                                    <div class="item">
+                                        <img src="img/projects/Sum14_Electronic_Circuit_Game/File_002.jpg">
+                                    </div>
+                                    
+                                    <div class="item">
+                                        <img src="img/projects/Sum14_Electronic_Circuit_Game/File_002.jpg">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="img/projects/Sum14_Electronic_Circuit_Game/File_003.jpg">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="img/projects/Sum14_Electronic_Circuit_Game/File_004.jpg">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="img/projects/Sum14_Electronic_Circuit_Game/main_circuit.jpg">
+                                    </div>
+                                </div>
+                            
+                                <!-- Prev/Next Btns -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="myModalText">
+                                <strong>Problem: </strong>
+                                Design and build a machine that plays the game Rock-Paper-Scissors
+                            </div>
+                            <div class="myModalText">
+                                <strong>Solution: </strong>
+                                I built a machine that played Rock-Paper-Scissors-Lizard-Spock
+                            </div>
+                            <div class="myModalText">
+                                As a rising seventh grader, I wanted to make a machine that would
+                                pit two players against eachother in a game played by characters from
+                                my favorite TV show at the time: The Big Bang Theory. So I used a similar
+                                project from my science class as an excuse to build a battleship-looking 
+                                game that played Rock-Paper-Scissors-Lizard-Spock.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="scripts.js"></script>

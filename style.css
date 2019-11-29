@@ -292,3 +292,28 @@ body
 {
     margin-top: 20px;
 }
+
+/* 
+
+* * * * * Modal * * * * *
+
+*/
+
+.modal-header h4
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24pt !important;
+    font-weight: 400;
+}
+
+.myModalText
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    margin: 0 0 10px 0;
+}
+
+.item
+{
+    width: 100%;
+}
