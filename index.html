@@ -16,8 +16,7 @@ Have a look around! Please don't hesitate to email me at
 realjustinshaw@gmail.com
 
 TODO:
-- 
-
+- add contact me
  -->
 
 <!DOCTYPE html>
@@ -223,21 +222,21 @@ TODO:
     <div class="row myProjectContainer"> <!-- We can use the same container as above -->
         
         <!-- Artificial Intelligence Research -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" onclick="">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" data-toggle="modal" data-target="#Artificial_Intelligence">
             <img src="img/blogs/Win19ArtificialIntelligenceResearch/main_ai.png" alt="Blog Image">
             <div class="myDateText text-right">2019</div>
             <div class="myProjectText text-center">Artificial Intelligence</div>
         </div>
         
         <!-- Blockchain Payments -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" onclick="">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" data-toggle="modal" data-target="#Blockchain_Payments">
             <img src="img/blogs/Aut19BlockchainPaymentProcessing/main_blockchain.png" alt="Blog Image">
             <div class="myDateText text-right">2019</div>
             <div class="myProjectText text-center">Blockchain Payments</div>
         </div>
         
         <!-- Fund Razor -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" onclick="">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" data-toggle="modal" data-target="#Fund_Razor">
             <img src="img/blogs/Sum19FundRazor/FundRazorApp.png" alt="Blog Image">
             <div class="myDateText text-right">2019</div>
             <div class="myProjectText text-center">Fund Razor</div>
@@ -279,13 +278,11 @@ TODO:
     </nav>
 </div>
 
-<!-- * -->
-<!-- * -->
-<!-- * -->
-<!-- Modal Windows -->
-<!-- * -->
-<!-- * -->
-<!-- * -->
+<!--
+
+Modal Project Windows
+
+-->
 
 <!-- Dome -->
 <div id="Geodesic_Greenhouse" class="modal fade" role="dialog">
@@ -946,6 +943,66 @@ TODO:
         </div>
     </div>
 </div>
+
+
+<!--
+
+Modal Blog Windows
+
+-->
+<!-- Artificial Intelligence -->
+<div id="Artificial_Intelligence" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Artificial Intelligence</h4>
+            </div>
+            <div class="modal-body">
+                <div class="myModalText">
+                    Starting in 2020, I will be working with researchers from the 
+                    University of Washington to develop neural network algorithms
+                    that predict and analize complex biological enzyme functions.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Blockchain Payments -->
+<div id="Blockchain_Payments" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Blockchain Payments</h4>
+            </div>
+            <div class="modal-body">
+                <div class="myModalText">
+                    This is currently a work in progress! Check back soon for more details.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fund Razor -->
+<div id="Fund_Razor" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Fund Razor</h4>
+            </div>
+            <div class="modal-body">
+                <div class="myModalText">
+                    This is currently a work in progress! Check back soon for more details.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script src="scripts.js"></script>
 </body>
