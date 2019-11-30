@@ -138,7 +138,7 @@ body
 
 .myProjectImg
 {
-    margin: 20px calc((100vw - 354px) / 2);
+    margin: 20px calc((100vw - 340px) / 2);
     max-width: calc(100vw - 20px);
 }
 
@@ -302,7 +302,7 @@ body
 .modal-header h4
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 24pt !important;
+    font-size: 18pt !important;
     font-weight: 400;
 }
 
@@ -310,10 +310,15 @@ body
 {
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
-    margin: 0 0 10px 0;
+    margin: 10px;
 }
 
-.item
+.item img
 {
     width: 100%;
+}
+
+.modal-body
+{
+    padding: 15px 0;
 }

@@ -135,6 +135,22 @@
         content: url(img/Read_Me@2x.png);
         margin: 40px calc((100vw - 456px) / 2);
     }
+
+    /* Modal */
+    .modal-header h4
+    {
+        font-size: 24pt !important;
+    }
+
+    .myModalText
+    {
+        margin: 0 0 15px 0;
+    }
+
+    .modal-body
+    {
+        padding: 15px;
+    }
 }
 
 /* Scale up project grid from small to medium devices */
