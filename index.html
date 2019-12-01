@@ -23,6 +23,7 @@ realjustinshaw@gmail.com
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -33,7 +34,7 @@ realjustinshaw@gmail.com
 <!-- Navigation Bar -->
 <div id="home" class="container-fluid myContainer">
     <nav class="navbar navbar-inverse myNavBar">
-        <div class="container-fluid">
+        <div class="container-fluid animated bounceInDown delay-1s">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -62,11 +63,11 @@ realjustinshaw@gmail.com
     <div class="row myRow marginZero">
         <div class="col-lg-6 myColLg6">
             <div class="myHeroText">
-                <h1>Justin Shaw</h1>
-                <h2>I am a freshman at the University of Washington</h2>
+                <h1 class="animated bounceInLeft slow">Justin Shaw</h1>
+                <h2 class="animated bounceInLeft slower">I am a freshman at the University of Washington</h2>
             </div>
         </div>
-        <div class="col-lg-6 myColLg6">
+        <div class="col-lg-6 myColLg6 animated bounceInRight">
             <img class="img-responsive myHeroImg" src="img/Dome_BW@2x.png" alt="Greenhouse Dome">
         </div>
     </div>
@@ -200,7 +201,7 @@ realjustinshaw@gmail.com
             </p>
 
             <div class="aboutBtnContainer">
-                <button type="button" class="btn myAboutBtn myActive" href="mailto:realjustinshaw@gmail.com?subject=Let me introduce myself&body=Hey Justin! I saw your website and I just wanted to reach out to you about ...">Contact Me</button>
+                <a class="btn myAboutBtn myActive" href="mailto:realjustinshaw@gmail.com?subject=Let me introduce myself&body=Hey Justin! I saw your website and I just wanted to reach out to you about ...">Contact Me</a>
                 <a target="_blank" href="JustinShawResume.pdf" class="btn myAboutBtn">View Resume</a>
             </div>
         </div>
@@ -218,12 +219,12 @@ realjustinshaw@gmail.com
     <!-- Row 2: Blog Cards -->
     <div class="row myProjectContainer"> <!-- We can use the same container as above -->
         
-        <!-- Artificial Intelligence Research -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" data-toggle="modal" data-target="#Artificial_Intelligence">
+        <!-- Artificial Intelligence Research (Hidden for now) -->
+        <!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" data-toggle="modal" data-target="#Artificial_Intelligence">
             <img src="img/blogs/Win19ArtificialIntelligenceResearch/main_ai.png" alt="Blog Image">
             <div class="myDateText text-right">2019</div>
             <div class="myProjectText text-center">Artificial Intelligence</div>
-        </div>
+        </div> -->
         
         <!-- Blockchain Payments -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 myProject" data-toggle="modal" data-target="#Blockchain_Payments">
@@ -247,11 +248,11 @@ realjustinshaw@gmail.com
     </div>
 </div>
 
-<!-- Toggle Blog Button -->
-<div class="container-fluid text-center" style="padding: 20px 0;">
+<!-- Toggle Blog Button (Hidden for now) -->
+<!-- <div class="container-fluid text-center" style="padding: 20px 0;"> -->
     <!-- Toggle Show More/Less -->
-    <button class="btn myBtn" onclick="viewMoreBlog()" id="myMoreBlogBtn">View more</button>
-</div>
+    <!-- <button class="btn myBtn" onclick="viewMoreBlog()" id="myMoreBlogBtn">View more</button>
+</div> -->
 
 <!-- Footer -->
 <div class="container-fluid myContainer myFooter">

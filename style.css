@@ -24,6 +24,11 @@ body
 * * * * * NAV BAR * * * * *
 
 */
+#home
+{
+    background-color: black;
+}
+
 .myContainer
 {
     padding: 0;
