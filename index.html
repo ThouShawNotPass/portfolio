@@ -21,6 +21,16 @@ realjustinshaw@gmail.com
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154480618-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154480618-1');
+    </script>
+
     <title>Justin Shaw - Portfolio</title>
     <meta charset="UTF-8">
     <meta property="og:title" content="STEM Portfolio"/>
@@ -35,7 +45,6 @@ realjustinshaw@gmail.com
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
@@ -84,7 +93,7 @@ realjustinshaw@gmail.com
 </div>
 
 <!-- My Projects -->
-<div id="projects" class="container-fluid myContainer">
+<div id="projects reveal" class="container-fluid myContainer">
 
     <!-- Row 1: Section Divider -->
     <div class="row marginZero">
