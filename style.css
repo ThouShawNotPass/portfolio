@@ -149,7 +149,7 @@ body
 
 #myBtnContainer
 {
-    margin: 0 calc((100vw - 224px) / 2);
+    margin: 0 calc((100vw - 230px) / 2);
     margin-bottom: 30px;
 }
 
@@ -259,7 +259,7 @@ body
 
 .aboutBtnContainer
 {
-    margin: 20px calc((100% - 289px) / 2);
+    margin: 20px calc((100% - 295px) / 2);
 }
 
 .myAboutBtn
@@ -285,6 +285,16 @@ body
 {
     margin: 20px calc((100vw - 228px) / 2);
     max-width: calc(100vw - 20px);
+}
+
+a, a:hover
+{
+    color: #000000;
+}
+
+.myProject:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.85);
 }
 
 /* 

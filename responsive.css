@@ -69,7 +69,7 @@
     /* Scale up text and recenter buttons */
     #myBtnContainer
     {
-        margin: 0 calc((100vw - 280px) / 2);
+        margin: 0 calc((100vw - 285px) / 2);
         margin-bottom: 40px;
     }
 
@@ -118,7 +118,7 @@
 
     .aboutBtnContainer
     {
-        margin: 60px calc((100% - 374px) / 2);
+        margin: 60px calc((100% - 380px) / 2);
     }
 
     .myAboutBtn
