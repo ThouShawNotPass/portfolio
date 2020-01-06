@@ -1,2 +1,2 @@
 # Portfolio
-My Personal Portfolio - a place to store all of my past projects.
+My Personal Portfolio - a digital repository to store all of my past projects.
